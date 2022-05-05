@@ -1,9 +1,9 @@
-main{
-  font-size: 24px;  
+.blok{
+font-size: 24px;
 }
-p{
-    color: green;
+.par{
+color: green;
 }
-ul{
-    color: orange;
+.spis{
+color: orange;
 }
