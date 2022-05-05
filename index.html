@@ -4,24 +4,37 @@
     <meta charset="UTF-8" />
     <title>Document</title>
     <link rel="stylesheet" href="task2.css">
+    <style>
+      header{
+        background-color: red;
+        height: 100px;
+      }
+      h1{
+        font-size: 24px;
+        color: white;
+      }
+      main{
+        background-color: blue;
+        font-size: 18px;
+        height: 300px;
+        color: white;
+      }
+      footer{
+        background-color: green;
+        font-size: 18px;
+        height: 100px;
+        color: white;
+      }
+    </style>
   </head>
 
   <body>
-    <main class="blok">
-      <p class="par">Изученные CSS свойства</p>
-      <ul class="spis">
-        <li>width - ширина блока, не применяется для инлайновых элементов</li>
-        <li>height - высота блока, не применяется для инлайновых элементов</li>
-        <li>display - определяет, как элемент должен быть показан в документе</li>
-        <li>color - задает цвет текста</li>
-        <li>background-color - задает цвет фона</li>
-        <li>font-size - задает размер шрифта</li>
-        <li>margin - задает наружные отступы для блока</li>
-      </ul>
-      <p class="par">
-        Каждый браузер имеет стили по умолчанию. Хорошая практика эти стили обнулять или
-        нормализовать. Это позволит добиться одиннакового отображения страницы во всех браузерах
-      </p>
+    <header>
+      <h1>Главный заголовок на странице</h1>
+    </header>
+    <main>
+      <p>Семантическая верстка позволяет поисковым система лучшем понять контент страницы</p>
     </main>
+    <footer>Не забываем сбрасывать стили браузера по умолчанию</footer>
   </body>
 </html>
