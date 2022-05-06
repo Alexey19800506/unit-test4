@@ -15,7 +15,7 @@ a:hover{
 button:disabled{
     border: 2px dashed grey;
 }
-button:enabled{
+button:hover:enabled{
     background-color: grey;
     color: white;
 }
