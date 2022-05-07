@@ -1,4 +1,20 @@
-.theory::first-letter{
+[type="checkbox"]:checked{
+    margin-left: 50px;
+}
+label>input{
+  text-transform: uppercase;
+}
+#special::first-letter{
+    color: green;
+    font-size: 100px;
+}
+h1{
+    color: blue;
+}
+a:visited{
+    color: gray;
+}
+/*.theory::first-letter{
     font-size: 36px;
     margin-left: 16px;
     color: orange;
@@ -11,10 +27,10 @@
     color: white;
 }
 a::before{
-    content: '>';
+    content: '>';:
     color: green;
 }
 a::after{
     content: '<';
     color: green;
-}
+}*/
