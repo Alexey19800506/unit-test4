@@ -1,13 +1,13 @@
 .block3 {
     width: 808px;
-    height: 208px;
+    height: 300px;
     padding: 50px;
     background-color: green;
     border: 2px solid black;
     box-sizing: border-box;
 }
 .block4 {
-    height:104px;
+    height:196px;
     width: 704px;
     padding: 50px;
     background-color: pink;
@@ -16,7 +16,7 @@
 }
 .block2 {
     width: 912px;
-    height: 312px;
+    height: 404px;
     padding: 50px;
 background-color: yellow;
 border: 2px solid black;
@@ -24,7 +24,7 @@ box-sizing: border-box;
 }
 .block1{
     width: 1016px;
-    height: 416px;
+    height: 508px;
     padding: 50px;
     background-color: blue;
     border: 2px solid black;
