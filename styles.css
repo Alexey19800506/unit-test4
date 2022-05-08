@@ -1,31 +1,31 @@
 .block3 {
-    width: 808px;
-    height: 208px;
-    padding: 50px;
+    width: 800px;
+    height: 200px;
+    padding: 46px;
     background-color: green;
     border: 2px solid black;
     box-sizing: border-box;
 }
 .block4 {
-    height:104px;
-    width: 704px;
-    padding: 50px;
+    height:100px;
+    width: 700px;
+    padding: 46px;
     background-color: pink;
     border: 2px solid black;
     box-sizing: border-box;
 }
 .block2 {
-    width: 912px;
-    height: 312px;
-    padding: 50px;
+    width: 900px;
+    height: 300px;
+    padding: 46px;
 background-color: yellow;
 border: 2px solid black;
 box-sizing: border-box;
 }
 .block1{
-    width: 1016px;
-    height: 416px;
-    padding: 50px;
+    width: 1000px;
+    height: 400px;
+    padding: 46px;
     background-color: blue;
     border: 2px solid black;
     margin: 50px;
