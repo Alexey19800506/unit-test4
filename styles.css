@@ -1,9 +1,33 @@
-div{
-    width: 900px;
-    height: 124.391px;
-    background-color: aqua;
-    border: 3px solid black;
+.block3 {
+    width: 800px;
+    height: 200px;
     padding: 50px;
+    background-color: green;
+    border: 2px solid black;
     box-sizing: border-box;
-    margin-bottom: 50px;
+}
+.block4 {
+    height:100px;
+    width: 700px;
+    padding: 50px;
+    background-color: pink;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.block2 {
+    width: 900px;
+    height: 300px;
+    padding: 50px;
+background-color: yellow;
+border: 2px solid black;
+box-sizing: border-box;
+}
+.block1{
+    width: 1000px;
+    height: 400px;
+    padding: 50px;
+    background-color: blue;
+    border: 2px solid black;
+    margin: 50px;
+    box-sizing: border-box;
 }
