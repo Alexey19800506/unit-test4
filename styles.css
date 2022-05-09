@@ -1,20 +1,36 @@
 .header {
+    top: 0px;
+    left: 0px;
     height: 40px;
+    width: 100%;
     background-color: darkturquoise;
+    position: fixed;
+    z-index: 3;
+    
+}
+.navigation {
+    height: 40px;
+    margin: 0px;
 }
 .nav-list {
-   
+    margin-top: 0px;
+    padding: 0px;  
     color: white;
     list-style-type: none;
+    position: absolute;
+    
 }
-.nav-item{
+.nav-item{  
+    margin-top: 10.804px; 
     margin-left: 16px;
     float: left;
-    padding: 10.8px;
+
+    
 }
 .content {
     background-color: beige;
     height: 5000px;
+    
 }
 .head {
     width: 200px;
@@ -22,7 +38,7 @@
     background-color: aquamarine;
     position: relative;
     top: 2400px;
-    left: 550px;
+    left: 360px;
     z-index: 1;
 }
 .ear {
