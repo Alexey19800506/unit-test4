@@ -10,7 +10,7 @@
 }
 .navigation {
     height: 40px;
-    
+    margin-left: 16px;
 }
 .nav-list {
     margin: 0px;
@@ -21,10 +21,11 @@
     
 }
 .nav-item{  
+    float: left;
     padding-top: 11px;
     padding-bottom: 11px;
     margin-left: 16px;
-    float: left;
+   
 
     
 }
