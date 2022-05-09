@@ -1,21 +1,57 @@
 .header {
-    height: 50px;
-    background-color: yellow;
+    height: 40px;
+    background-color: darkturquoise;
+}
+.nav-list {
+   
+    color: white;
+    list-style-type: none;
+}
+.nav-item{
+    margin-left: 16px;
+    float: left;
+    padding: 10.8px;
 }
 .content {
-    float: left;
-    height: 500px;
-    background-color: pink;
-width: 80%;
+    background-color: beige;
+    height: 5000px;
 }
-.sidebar {
-    float: left;
-    height: 500px;
+.head {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position: relative;
+    top: 2400px;
+    left: 550px;
+    z-index: 1;
+}
+.ear {
+    height: 60px;
+    width: 40px;
+    background-color: brown;
+    position: absolute;
+}
+.eye {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
     background-color: gray;
-    width: 20%;
+    position: absolute;
+    z-index: 2;
 }
-.footer {
-    clear: both;
-    height: 50px;
-    background-color: green;
+.ear_right {
+ left: 200px;
+  bottom: 200px;
+}
+.ear_left {
+right: 200px;
+bottom: 200px;
+}
+.eye_right {
+top: 80px;
+right: 40px;
+}
+.eye_left {
+top: 80px;
+left: 40px;
 }
