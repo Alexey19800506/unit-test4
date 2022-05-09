@@ -1,31 +1,21 @@
-
-.block_red {
-    background-color: red;
-    float: left;
-    width: 20%;
-    height: 200px;
-}
-.block_green {
-    background-color: green;
-    float: left;
-    width: 20%;
-    height: 200px;
-}
-.block_blue {
-    background-color: blue;
-    float: left;
-    width: 20%;
-    height: 200px;
-}
-.block_yellow {
+.header {
+    height: 50px;
     background-color: yellow;
-    float: left;
-    width: 20%;
-    height: 200px;
 }
-.block_black {
-    background-color: black;
+.content {
     float: left;
+    height: 500px;
+    background-color: pink;
+width: 80%;
+}
+.sidebar {
+    float: left;
+    height: 500px;
+    background-color: gray;
     width: 20%;
-    height: 200px;
+}
+.footer {
+    clear: both;
+    height: 50px;
+    background-color: green;
 }
