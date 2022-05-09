@@ -21,7 +21,7 @@
     
 }
 .nav-item{  
-   margin-top: 10.804px;
+    padding: 10.8px;
     margin-left: 16px;
     float: left;
 
@@ -38,8 +38,8 @@
     height: 200px;
     background-color: aquamarine;
     position: relative;
-    top: 240px;
-    left: 360px;
+    top: 160px;
+    left: 180px;
     z-index: 1;
 }
 .ear {
