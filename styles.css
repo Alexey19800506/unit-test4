@@ -1,21 +1,20 @@
-* {
-    box-sizing: border-box;
-}
-.container {
+.block {
     float: left;
-    width: 50%;
+    width: 20%;
+    height: 200px;
 }
 .red {
-    float: right;
     background-color: red;
-   
 }
 .green {
-    float: left;
     background-color: green;
-    
 }
-.footer {
-    clear: both;
-
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+.black {
+    background-color: black;
 }
