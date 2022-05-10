@@ -1,20 +1,19 @@
-header {
-    display: flex;
-    justify-content: center;
+h1{
+    text-align: center;
 }
 
 .article {
+    flex:1 0 300px;  
     margin: 8px;
     padding: 16px;
     background-color: bisque;
-    flex:1 0 300px;   
+     
 }
 .articles-list {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px; 
-    padding: 0px;   
+    
 }
-body {
+* {
     box-sizing: border-box;
 }
