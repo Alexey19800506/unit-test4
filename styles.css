@@ -8,7 +8,6 @@ body {
 .article {
     margin: 8px;
     padding: 16px;
-    height: 300px;
     background-color: bisque;
     flex-basis: 300px;
     flex-shrink: 0;
@@ -17,5 +16,7 @@ body {
 }
 .articles-list {
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    margin: 0px; 
+    padding: 0px;   
 }
