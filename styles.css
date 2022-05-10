@@ -1,60 +1,24 @@
-body{
-    box-sizing: border-box;
+body {
+    display: flex;
 }
-.header{
-    height: 40px;
+.block {
+    height: 300px;
+    width: 500px;
+    flex-wrap: 1;
+}
+.block_red {
+    background-color: red;
+
+}
+.block_green {
+background-color: green;
+}
+.block_blue {
+    background-color: blue;
+}
+.block_yellow {
     background-color: yellow;
-    display: flex;
-    align-items: center;
 }
-.nav{
-   margin: 0px;
-   padding: 0px;
-    list-style-type: none;
-    display: flex;
-   
-}
-.nav_item{
-    margin-left: 16px;
-}
-.footer {
-    height: 40px;
-    display: flex;
-    background-color: green;
-    align-items: center;
-    justify-content: center;
-}
-.page {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-.content {
-    flex-grow: 1;
-    display: flex;
-}
-.dashboard {
-    background-color: pink;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1 ;
-}
-.news {
-    width: 200px;
-    background-color: gray;
-}
-.headline {
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-}
-.ul_headline {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-}
-.li_headline {
-    height: 40px;
-    margin-left: 16px;
+.block_black {
+    background-color: black;
 }
