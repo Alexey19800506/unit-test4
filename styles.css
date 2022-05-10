@@ -2,9 +2,7 @@ header {
     display: flex;
     justify-content: center;
 }
-body {
-    box-sizing: border-box;
-}
+
 .article {
     margin: 8px;
     padding: 16px;
