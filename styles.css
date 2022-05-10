@@ -8,6 +8,7 @@ body {
 .article {
     margin: 8px;
     padding: 16px;
+    height: auto;
     background-color: bisque;
     flex-basis: 300px;
     flex-shrink: 0;
