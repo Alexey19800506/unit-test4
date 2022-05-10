@@ -2,22 +2,16 @@ header {
     display: flex;
     justify-content: center;
 }
-body {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    min-width: 300px;
-}
+
 .article {
     margin: 8px;
     padding: 16px;
     background-color: bisque;
-    flex-basis: auto;
-  
-
-}
-.articles-list {
-    
+    flex-basis: 300px;
     flex-shrink: 0;
     flex-grow: 1;
+}
+.articles-list {
+    display: flex;
+    flex-wrap: wrap;    
 }
