@@ -5,7 +5,8 @@ div {
 
 
 .thumb { 
-    
+    width: 225px;
+    height: 225px;
      margin: 8px;
    overflow-x: auto;
 }
