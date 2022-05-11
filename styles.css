@@ -1,11 +1,17 @@
 .gallery {
-    display: flex;
-    
+   display: flex;
 }
-.thumb {
-    margin: 8px;
-    overflow: auto;
+
+img {
+    width: 225px;
+    height: 225px;
+     margin: 8px;
 }
+
+.thumb { 
+   overflow: scroll;
+}
+
 .gallery:hover {
-    overflow: scroll;
+    overflow: auto;
 }
