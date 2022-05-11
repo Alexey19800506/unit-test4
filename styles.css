@@ -33,7 +33,8 @@
 
 .dropdown:hover .menu-list {
     display: block;
+   
 }
-.menu-button:hover {
+.menu-list:hover {
     background-color: ghostwhite;
 }
