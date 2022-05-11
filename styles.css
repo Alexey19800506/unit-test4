@@ -9,11 +9,15 @@
     display: inline-block;
 }
 .tooltip {
-    display: flex;
+    
     position: absolute;
     padding: 8px;
     border-radius: 4px;
     background-color: gray;
     color: white;
     bottom: -40px;
+    display: none;
+}
+.text:hover .tooltip{
+    display: block;
 }
