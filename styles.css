@@ -31,7 +31,7 @@
     list-style-type: none;
 }
 
-.dropdown:hover .menu-list {
+.dropdown:hover .menu-button {
     display: block;
    opacity: 1;
 }
