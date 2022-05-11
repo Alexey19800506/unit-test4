@@ -1,43 +1,19 @@
 * {
     box-sizing: border-box;
 }
-.menu-button {
+
+.text {
     position: relative;
-    padding: 16px;
-    background-color: darkgreen;
-    opacity: 0.8;
-    font-size: 16px;
-    color: white;
-    cursor: pointer;
-   display: inline-block;
-}
-.dropdown {
-    margin: 16px;    
+    margin: 16px;
+    border-bottom: 1px dotted black;
     display: inline-block;
 }
-.menu-list {
+.tooltip {
+    display: flex;
     position: absolute;
-    margin: 0;
-    padding: 0;
-    background-color: lightcyan;
-    color: black;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-    min-width: 120px;
-    z-index: 1;
-    display: none;
-}
-.menu-item {
-    padding: 16px;
-    list-style-type: none;
-}
-
-.dropdown:hover .menu-button {
-    
-   opacity: 1;
-}
-.dropdown:hover .menu-list {
-    display: block;
-}
-.menu-list:hover {
-    background-color: ghostwhite;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: gray;
+    color: white;
+    bottom: -40px;
 }
