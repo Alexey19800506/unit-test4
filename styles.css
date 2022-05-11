@@ -1,13 +1,14 @@
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 h1 {
-    font-size: 74px;    
-    text-align: center;
+    width: 50%; 
+    font-size: 74px;  
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    width: 50%;
+    text-align: center;
+    margin: 0;
 }
 div {
     height: 200px;
