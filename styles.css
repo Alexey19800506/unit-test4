@@ -1,23 +1,11 @@
-* {
-    box-sizing: border-box;
-}
-
-.text {
-    position: relative;
-    margin: 16px;
-    border-bottom: 1px dotted black;
-    display: inline-block;
-}
-.tooltip {
+.gallery {
+    display: flex;
     
-    position: absolute;
-    padding: 8px;
-    border-radius: 4px;
-    background-color: gray;
-    color: white;
-    bottom: -40px;
-    display: none;
 }
-.text:hover .tooltip{
-    display: block;
+.thumb {
+    margin: 8px;
+    overflow: auto;
+}
+.gallery:hover {
+    overflow: scroll;
 }
