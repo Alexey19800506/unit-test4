@@ -1,14 +1,16 @@
-div {
+.gallery {
    display: flex;
+   overflow-x: auto;
 }
 
 
 
 .thumb { 
+    flex-shrink: 0;
     width: 225px;
     height: 225px;
      margin: 8px;
-   overflow-x: auto;
+   
 }
 
 .gallery:hover {
