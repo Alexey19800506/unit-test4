@@ -1,4 +1,18 @@
-html {
+.list {
+list-style-type: none;
+font-size: 1.5em;
+}
+.third {
+    text-decoration: green underline;
+}
+.second {
+    text-decoration: line-through;
+}
+.first {
+    text-decoration: red overline;
+}
+
+/*html {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 h1 {
@@ -17,4 +31,4 @@ div {
     text-transform: uppercase;
     text-align: center;
     line-height: 200px;
-}
+}*/
