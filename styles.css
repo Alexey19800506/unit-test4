@@ -2,10 +2,10 @@
      box-sizing: border-box;
  }
 
-.video {
-    max-width: 500px;
-    height: auto;
-    margin: 0 auto;
-    margin-top: 200px;
+iframe {
+    margin: 100px auto;
     display: block;
+    width: 500px;
+    height: 400px;
+    
 }
