@@ -1,18 +1,12 @@
  * {
      box-sizing: border-box;
  }
-html {
-    font-size: 18px;
+div.rectangle {
+    background-color: blueviolet;
 }
-.properties-list__item {
-    
-    
-    padding: 8px;
-    
+p.text::first-letter {
+    color: green;
 }
-.properties-list {
+p.text {
     font-size: 24px;
-    line-height: 32px;
-    list-style-type: none;
-    color: #f39;
 }
