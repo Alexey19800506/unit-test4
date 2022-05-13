@@ -10,33 +10,32 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css">
-    <style>
-      .rectangle {
-        background-color: aqua;
-        width: 100px;
-        height: 100px;
-      }
-
-      .text {
-        font-size: 18px;
-        line-height: 24px;
-      }
-
-      .text::first-letter {
-        color: red;
-      }
-
-      .new {
-        color: grey;
-      }
-    </style>
+  
   </head>
 
   <body>
-    <div class="rectangle"></div>
-    <p class="text new">
-      Cascading Style Sheets — каскадные таблицы стилей) — формальный язык описания внешнего вида
-      документа, написанного с использованием языка разметки.
-    </p>
+    <div class="image-conteiner">
+      <img class="main-image" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="Land with tree">
+    </div>
+  <div class="gallery">
+    <figure class="card">
+      <img class="opacity-filter" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Opacity">
+      <figcaption class="caption">
+         Opacity
+      </figcaption>
+    </figure>
+    <figure class="card">
+      <img class="blur-filter" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Opacity">
+      <figcaption class="caption">
+         Opacity
+      </figcaption>
+    </figure>
+    <figure class="card">
+      <img class="invert-filter" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Opacity">
+      <figcaption class="caption">
+         Opacity
+      </figcaption>
+    </figure>  
+  </div>
   </body>
 </html>
