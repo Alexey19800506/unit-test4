@@ -2,8 +2,11 @@
      box-sizing: border-box;
  }
 
-.image-conteiner .main-image {
-    margin: 50px auto 50px;
+.image-conteiner {
+margin: 50px 0;
+} 
+.main-image {
+    margin:  auto;
     display: block;
     max-width: 100%;
     border-radius: 20px;
