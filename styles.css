@@ -6,7 +6,5 @@ div.rectangle {
 }
 p.text::first-letter {
     color: green;
-}
-p.text {
     font-size: 24px;
 }
