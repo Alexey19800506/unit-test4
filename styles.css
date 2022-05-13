@@ -2,7 +2,7 @@
      box-sizing: border-box;
  }
 
-.main-image {
+.image-conteiner .main-image {
     margin: 50px auto 50px;
     display: block;
     max-width: 100%;
