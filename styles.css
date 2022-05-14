@@ -3,13 +3,19 @@
  }
  .image-container  {
     position: relative;
-   height: 333px;
+    display: flex;
+    max-width: 100%;
+    
+   align-items: center;
+  justify-content: center;
    
  }
  .image {
-     position: absolute;
+   max-width: 100%;
+   height: auto;
      z-index: 0;
-     left: calc(50% - 250px);
+     
+     flex-shrink: 0;
  }
 
 .image-button {
