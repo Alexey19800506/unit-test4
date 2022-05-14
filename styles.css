@@ -1,9 +1,26 @@
  * {
      box-sizing: border-box;
  }
- .form-control {
-     margin: 16px;
+ input[type="checkbox"] {
+     visibility: hidden;
+    width: 0;
+    height: 0;
  }
- .choose-gender {
+.checkbox {
+    display: inline-block;
+    font-size: 24px;
     margin: 16px;
- }
+padding-left: 35px;
+position: relative;
+}
+.checkmark {
+    width: 25px;
+    height: 25px;
+    background-color: #d3d3d3;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.checkbox  input:checked + .checkmark {
+    background-color: #006400;
+}
