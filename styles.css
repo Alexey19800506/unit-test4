@@ -17,7 +17,7 @@ body {
     padding: 16px;
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
     display: block;
-    margin: 135 auto;
+    margin: 135px auto;
     
 }
 .form-title{
@@ -48,7 +48,7 @@ padding: auto;
     margin-top: 16px;
     text-transform: uppercase;
     border-radius: 4px;
-    border: 0;
+    
 }
 input:required {
     border: 3px solid #f00;
