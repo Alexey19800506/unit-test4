@@ -15,14 +15,16 @@
   <body>
     <form >
     <div class="form-control">
-      <input type="text" name="lastName" value="Emerson">
+      <input type="text" name="lastName" value="Emerson" readonly id="ln">
+      <label for="ln">Last Name</label>
     </div>
     <div class="form-control">
-      <input type="number" name="age" value="17">
+      <input type="number" name="age" value="17" min="3" max="10" id="a">
+      <label for="a">Age</label>
     </div>
     <div class="form-control">
        <label > 
-         <input type="checkbox" name="agree" id="">
+         <input type="checkbox" name="agree" disabled>
          Accept terms and conditions
         </label>
     </div>
@@ -36,7 +38,7 @@
     </div>
     
     <div class="form-control">
-  <textarea name="description" placeholder="Write description..."></textarea>
+  <textarea maxlength="10" name="description" placeholder="Write description..."></textarea>
     </div>
     <div class="form-control">
       <button type="submit">Submit</button>
