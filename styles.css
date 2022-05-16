@@ -4,6 +4,6 @@
 main {
     margin: 32px;
 }
-div {
+div, select, button {
     margin: 8px;
 }
