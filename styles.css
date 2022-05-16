@@ -4,6 +4,9 @@
 main {
     margin: 32px;
 }
-div, select, button {
+.languages {
     margin: 8px;
+}
+.language {
+    margin: 0 8px;
 }
