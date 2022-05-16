@@ -1,12 +1,15 @@
- * {
-     box-sizing: border-box;
- }
+* {
+    box-sizing: border-box;
+}
 main {
-    margin: 32px;
+   margin: 32px;
 }
 .languages {
-    margin: 8px;
+   margin: 8px;
 }
 .language {
-    margin: 0 8px;
+   margin: 0 8px;
 }
+.languag {
+    margin: 8px;
+ }
