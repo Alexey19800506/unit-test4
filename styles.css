@@ -37,7 +37,8 @@ body {
 
 .form-label {
    display:block;
-     
+     margin-bottom: 4px;
+     margin-top: 8px;
 }
 
 .form-input {
@@ -47,7 +48,7 @@ body {
    height: 32px; 
    border-radius: 4px;
    padding: 4px;
-   margin: 4px 0;
+   
    outline: none;
 }
 
@@ -55,7 +56,7 @@ body {
    height: 32px;  
    background-color: #ff7f50;
    color: white;
-   margin-top: 16px;
+   margin-top: 24px;
    text-transform: uppercase;
    border-radius: 4px;
    
