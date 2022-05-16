@@ -51,14 +51,11 @@
         <div class="languages" >
           <input type="password" name="password" value="secret">
         </div>
-        <div class="languages">
-            <input type="radio" name="language" value="html" id="html">
-             <label for="html">HTML</label>                   
-            <input type="radio" name="language" value="css" id="css" checked>
-            <label for="css">CSS</label>        
-            <input type="radio" name="language" value="javascript" id="js">
-            <label for="js">JavaScript</label> 
-        </div>
+        <select class="languages">
+          <option value="html">HTML</option>
+          <option value="css" selected>CSS</option>
+          <option value="javascript">JavaScript</option>
+        </select>
         <div class="languages">
           <input type="range" name="learningProgress" value="30">
         </div>
