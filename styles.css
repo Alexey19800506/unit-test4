@@ -21,7 +21,7 @@
    fill: white;
    vertical-align: middle;
 }
-.custom-button:hover > .kivi{
+.kivi:hover {
    fill: green;
    
 }
