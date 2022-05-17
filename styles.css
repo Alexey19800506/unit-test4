@@ -4,7 +4,7 @@
 table {
    margin: 16px;
 }
-table,td {
+table,tr:not(:first-child, :last-child) td:not(:first-child, :last-child) {
    border: 1px solid #000;
    border-collapse: collapse;
 }
@@ -15,19 +15,16 @@ td {
    text-align: center;
 }
 
-table td:nth-child(1),table td:nth-child(10), table tr:nth-child(1),table tr:nth-child(10) {
-   border: none;/* не выходит у строк убрать border*/
-}
 
-table tr:nth-child(odd) td:nth-child(even) {
+
+ tr:nth-child(odd) td:nth-child(even) {
    background-color: #000;
 }
-
-table tr:nth-child(even) td:nth-child(odd) {
+tr:nth-child(even) td:nth-child(odd) {
    background-color: #000;
 }
-
-table tr:nth-child(1), table tr:nth-child(10), table td:nth-child(1), table td:nth-child(10) {
-   background-color: #fff; /*не выходит перекрасить фон в белый */
+ 
+tr:first-child tr:last-child td:first-child td:last-child  {
+   background-color: transparent ; 
 }
 
