@@ -2,63 +2,17 @@
     box-sizing: border-box;
 }
 
-body {
-   background-color: bisque;  
- }
-
-.page {
-   min-height: 100vh;
-   font-size: 16px;
-  font-family: 'Courier New', Courier, monospace;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+table {
+   width: 500px;
+  
+   margin: 16px;
 }
-
-.login-form {
-   display: flex;
-   flex-direction: column;
-   background-color: aqua;
-   width: 300px; 
-   padding: 16px;
-   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);  
+td,th,table {
+   border: 1px solid black;
+   border-collapse: collapse;
 }
-
-.form-title{   
-   text-align: center;
-   text-transform: uppercase;
-   padding: auto;
-}
-.form-control {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 8px;
-}
-
-.form-label {
-   display:block;
-   margin-bottom: 4px;     
-}
-
-.form-input {
-   display: flex;
-   justify-content: center;
-   border: 1px solid #808080;
-   height: 32px; 
-   border-radius: 4px;
+td,th {
    padding: 4px;
-} 
-
-.submit-button {
-   height: 32px;  
-   background-color: #ff7f50;
-   color: white;
-   margin-top: 16px;
-   text-transform: uppercase;
-   border-radius: 4px;  
+   text-align: right;
 }
 
-input:invalid {
-   border: 3px solid #f00;
-}
