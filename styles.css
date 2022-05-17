@@ -24,7 +24,17 @@ tr:nth-child(even) td:nth-child(odd) {
    background-color: #000;
 }
  
-tr:first-child tr:last-child td:first-child td:last-child  {
-   background-color: transparent ; 
+tr:first-child td:nth-child(even){
+   background-color: #fff ; 
 }
 
+tr:last-child td:nth-child(odd){
+   background-color: #fff ; 
+}
+tr:nth-child(even) td:first-child {
+   background-color: #fff;
+}
+
+tr:nth-child(odd) td:last-child {
+   background-color: #fff;
+}
