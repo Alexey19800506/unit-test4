@@ -1,22 +1,35 @@
 * {
     box-sizing: border-box;
 }
- div {
-    display: flex;
-    justify-content: space-around;
- }
-.font-size-one{
-   font-size: 16px;
+.container {
+   margin: 32px;
 }
-.font-size2 {
-   font-size: 32px;
+.rect {
+   margin-bottom: 16px;
+   width: 100px;
+   height: 100px;
+   background-color: coral;
+   text-align: center;
+   line-height: 100px;
+   opacity: 0.5;
+   transition: width 2s,opacity 0.5s;
 }
-.font-size3 {
-   font-size: 64px;
+.rect:hover {
+   width: 100%;
+   opacity: 1;
 }
-.font-size4 {
-   font-size: 128px;
+.rect:first-child {
+ transition-timing-function: linear;
 }
-.font-size5 {
-   font-size: 256px;
+.rect:nth-child(2) {
+   transition-timing-function: ease;
+}
+.rect:nth-child(3) {
+   transition-timing-function: ease-in;
+}
+.rect:nth-child(4) {
+   transition-timing-function: ease-out; 
+}
+.rect:nth-child(5) {
+   transition-timing-function: ease-in-out;
 }
