@@ -1,49 +1,48 @@
 * {
    box-sizing: border-box;
  }
- body {
+ .container {
     display: flex;
     height: 100vh;
+    width: 100vw;
+    align-items: center;
+    
  }
-.fancy-button {
-   width: 150px;
-   height: 50px;
-   background-image: linear-gradient(45deg, yellow, red );
-   border: none;
-   border-radius: 4px;
-   font-family: Arial, Helvetica, sans-serif;
-   text-transform: uppercase;
-   font-weight: 700;
-   color: white;
-   margin: auto;
-   animation: jamp 0.5s 0.4s ease-in-out, spin 0.5s ease-in-out, hide 1s 2s ease forwards;
-}
-@keyframes jamp {
-   0%{
-     transform: translateY(0);
-   }
-   50% {
-      transform: translateY(-40px);
+ .spinner {
+    margin: auto;
+ }
+ .spinner-text {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    animation: blinking 2s infinite linear;
+ }
+ .circle {
+    width: 50px;
+    height: 50px;
+    border: 4px solid;
+    border-color: black lightgrey lightgrey;
+    margin: auto;
+    margin-bottom: 8px;
+    border-radius: 50%;
+    animation: circle 2s linear;
+ }
+ @keyframes blinking {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;  
    }
    100% {
-      transform: translateY(0);
+      opacity: 0; 
    }
-}
-@keyframes spin {
-   0%{
-     transform: rotate(0);
-   }
-
-   100% {
+ }
+ @keyframes circle {
+    0% {
+       transform: rotate(0);
+    }
+  100% {
       transform: rotate(360deg);
    }
-}
-@keyframes hide {
-   0%{
-     transform: translateX(0);
-   }
-
-   100% {
-      transform: translateX(2000px);
-   }
-}
+ }
