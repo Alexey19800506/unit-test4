@@ -21,7 +21,7 @@ html {
    height: 100vh;
    display: flex;
    
-   font-size: 1.25em;
+   
    
 }
 .units-list {
@@ -69,6 +69,7 @@ html {
  .section {
 width: 60%;
 padding: 0.5em;
+font-size: 1.25em;
 }
 .news {
    width: 20%;
