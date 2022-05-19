@@ -49,6 +49,7 @@ html {
    line-height: 2em;
    margin-bottom: 0.5em;
    padding-left: 0.5em;
+   padding-right: 0.5em;
    overflow: hidden;
    white-space: nowrap;
    text-overflow: ellipsis;
@@ -57,7 +58,7 @@ html {
 .nav-list-link {
    text-decoration: none;
    color: #fff;
-   
+   display: flex;
 }   
 
 .navigation {
