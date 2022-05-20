@@ -1,21 +1,25 @@
 * {
    box-sizing: border-box;
  }
-html {
-   font-size: 18px; 
+.container {
+   display: flex;
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
 }
-.font-in-px {
-   font-size: 27px;
+.square {
+   width: 100px;
+   height: 100px;
+   margin: 8px;
+   background-color: #8a2be2;
 }
-.font-in-em {
-   font-size: 1.5em;
+@media screen and (max-width: 600px) {
+   .square  {
+      background-color: #ff7f50;
+   }
 }
-.font-in-vw {
-   font-size: 5vw;
-}
-.font-in-percents {
-   font-size: 150%;
-}
-.font-in-rem {
-   font-size: 1.5rem;
+@media screen and (orientation:portrait) {
+   .container {
+      flex-direction: column;
+   }
 }
