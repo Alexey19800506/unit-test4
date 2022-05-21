@@ -7,9 +7,7 @@ html {
    color: #555;
    position: relative;
 }
-body {
-   height: 100vh;
-}
+
 .header {
    display: flex;
    color: #fff;
@@ -23,9 +21,7 @@ body {
 }
 
 .main {  
-    
-   width: 100%;  
-  
+   width: 100%;    
 }
 .units-list {
    line-height: 1.75em;
@@ -61,30 +57,30 @@ body {
 }   
 
 .navigation {
-   
    padding: 0.5em;
 }
  .section {
-
-padding: 0.5em;
-font-size: 1.25em;
+   padding: 0.5em;
+   font-size: 1.25em;
 }
 .news {
-  
    padding: 0.5em;
 }
-.pictures {
-   display: flex;
-}
+
 picture {
-   max-width: 100%;
-   margin: auto;
+   display: flex;
    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+img {
+   max-width: 100%;
+   
 }
 
 @media screen and (min-width: 600px) and (max-width: 1200px) {
    .nav_with_sec {
       display: flex;
+      flex-grow: 1;
    }
    .navigation {
       width: 20%;
@@ -92,10 +88,12 @@ picture {
    .section {
       width: 80%;
    } 
+  
 }
 @media screen and (min-width: 1200px){
    .main{
       display: flex; 
+      flex-grow: 1;
    }
    .nav_with_sec {
       display: flex;
@@ -106,6 +104,7 @@ picture {
    .section {
       width: 60%;
    } 
+   
    .news {
       width: 20%;
    }
