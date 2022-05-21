@@ -5,11 +5,9 @@ html {
    font-size: 16px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    color: #555;
-   position: relative;
+  
 }
-body {
-   min-height: 100vh;
-}
+
 
 .header {
    display: flex;
@@ -81,7 +79,7 @@ img {
    text-align: center;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1199) {
+@media screen and (min-width: 600px) {
    .nav_with_sec {
       display: flex;
       flex-grow: 1;
