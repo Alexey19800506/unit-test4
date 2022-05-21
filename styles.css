@@ -7,6 +7,9 @@ html {
    color: #555;
    position: relative;
 }
+body {
+   min-height: 100vh;
+}
 
 .header {
    display: flex;
@@ -14,11 +17,7 @@ html {
    justify-content: center;
    background-image: linear-gradient(60deg, red,orange);
 }
-.footer {
-   background-color: #e5e5e5;
-   padding: 0.5em;
-   text-align: center;
-}
+
 
 .main {  
    width: 100%;    
@@ -76,8 +75,13 @@ img {
    max-width: 100%;
    
 }
+.footer {
+   background-color: #e5e5e5;
+   padding: 0.5em;
+   text-align: center;
+}
 
-@media screen and (min-width: 600px) and (max-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 1199) {
    .nav_with_sec {
       display: flex;
       flex-grow: 1;
@@ -90,22 +94,26 @@ img {
    } 
   
 }
-@media screen and (min-width: 1200px){
-   .main{
+@media screen and (min-width: 1200px) {
+   .main {
       display: flex; 
       flex-grow: 1;
-   }
+   }  
    .nav_with_sec {
       display: flex;
+     
    }
+  
    .navigation {
-      width: 20%;
+      width: 20vw;
    } 
    .section {
-      width: 60%;
-   } 
-   
-   .news {
-      width: 20%;
+      width: 60vw;
    }
+ 
+   .news {
+      width: 20vw;
+      
+   }
+  
 }
