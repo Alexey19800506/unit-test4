@@ -7,6 +7,9 @@ html {
    font-size: 16px;
 }
 
+.main {
+   display: none;
+}
 .header {
    height: 3em;
    padding-left: 1em;
@@ -15,7 +18,7 @@ html {
 }
 
 .button {
-  display: none;
+  display: block;
   font-size: 2em;
   padding: 0;
   border: 0;
@@ -50,11 +53,11 @@ html {
    text-overflow: ellipsis;
 }
 
-@media screen and (max-widht:600px) {
-   .navigation {
-      display: none;
+@media screen and ( min-width: 600px) {
+   .main {
+      display: block;
    }
    .button {
-      display: inline-block;
+      display: none;
    }
 }
