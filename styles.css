@@ -48,7 +48,9 @@ body {
    text-decoration: none;
    color: #fff; 
 }   
-
+* {
+   box-sizing: border-box;
+}
 .navigation {
    padding: 0.5em;
 }
