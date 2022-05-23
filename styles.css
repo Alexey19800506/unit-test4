@@ -82,10 +82,10 @@ img, source {
       flex-grow: 1;
    }
    .navigation {
-      width: 20%;
+      width: 20vw;
    }
    .section {
-      width: 80%;
+      width: 80vw;
    }   
 }
 @media screen and (min-width: 1200px) {
