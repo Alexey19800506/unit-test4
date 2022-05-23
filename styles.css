@@ -1,3 +1,6 @@
+* {
+   box-sizing: border-box;
+}
 
 html {
    font-size: 16px;
@@ -48,9 +51,7 @@ body {
    text-decoration: none;
    color: #fff; 
 }   
-* {
-   box-sizing: border-box;
-}
+
 .navigation {
    padding: 0.5em;
 }
