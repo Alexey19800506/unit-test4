@@ -61,9 +61,9 @@ body {
    padding: 0.5em;
 }
 
-.pictures {
+picture {
    display: flex;
-   margin: auto;    
+   margin: auto;   
 }
 
 img, source {
