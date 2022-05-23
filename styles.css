@@ -66,10 +66,7 @@ body {
    padding: 0.5em;
 }
 
-picture {
-   display: flex;
-   margin: auto;   
-}
+
 
 img, source {
    max-width: 100%;
