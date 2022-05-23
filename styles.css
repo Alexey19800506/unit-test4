@@ -1,6 +1,4 @@
-* {
-   box-sizing: border-box;
- }
+
 html {
    font-size: 16px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -64,13 +62,15 @@ body {
 }
 
 picture {
-   display: flex;  
+   
+   margin: auto; 
+   
 }
 
 img, source {
    max-width: 100%;
-   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-   margin: auto;
+   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2); 
+   
 }
 
 .footer {
