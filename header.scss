@@ -8,15 +8,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100vh;  
+    
 }
-
+.container {
+    display: flex;
+    @include for-smaller {
+        flex-direction: column;         
+    }
+}
 .square {
     width: 100px;
     height: 100px;
     margin: 8px;
     background-color: #ff7f50;
-
+    
     @include for-small-up {
          background-color: #8a2be2;
     }

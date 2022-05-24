@@ -1,9 +1,15 @@
 $sm: 600px;
 $md: 900px;
 $lg: 1200px;
+$sl: 599px;
+@mixin for-smaller {
+    @media screen and (max-width: $sl){       
+       @content; 
+    }
+}
 
 @mixin for-small-up {
-    @media screen and (min-width: $sm){
+    @media screen and (min-width: $sm){       
        @content; 
     }
 }
