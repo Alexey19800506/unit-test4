@@ -1,4 +1,4 @@
-@import 'breakpoints.scss';
+
 
 .header {
 display: flex;
@@ -10,16 +10,19 @@ display: flex;
    padding-left: 0; 
    cursor: pointer;
    display: flex;
+   justify-content: center;
    margin-left: 3em;    
 }
 .menu__item-text { 
-    padding: 1em 8px;
-    margin: 0;
+    padding: 0 8px;
+    margin-top: 0;
+    margin-bottom: 0;
     text-transform: uppercase;
 }
 
 .menu__item {
-    
+    display: inline-block;
+    height: 3em;
     list-style-type: none; 
 }
 .menu__item-text:hover {
@@ -31,7 +34,7 @@ display: flex;
 }
 .submenu {
     position: absolute;
-    display: block;
+    display: inline-block;
     margin: 0;
     padding: 0;
     background-color: #ff7f50;
