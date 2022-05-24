@@ -12,8 +12,11 @@ body {
 }
 .container {
     display: flex;
-    @include for-smaller {
+    @include portrait {
         flex-direction: column;         
+    }
+    @include landscape {
+        flex-direction: row;
     }
 }
 .square {
