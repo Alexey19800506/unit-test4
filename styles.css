@@ -12,7 +12,7 @@ body {
 .container {
   display: flex;
 }
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 600px) {
   .container {
     flex-direction: column;
   }
@@ -24,7 +24,7 @@ body {
   margin: 8px;
   background-color: #ff7f50;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 601px) {
   .square {
     background-color: #8a2be2;
   }
