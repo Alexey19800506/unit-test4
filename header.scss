@@ -1,37 +1,61 @@
 @import 'breakpoints.scss';
 
-* {
-    box-sizing: border-box;
+.header {
+    display: flex;
+    height: 3em;   
+    background-color: #006400;
+    
+}
+.menu {
+    display: flex;
+    margin-left: 3em; 
+    margin-top: 0;
+    margin-bottom: 0; 
+    
+}
+.menu__item-text {
+
+    text-transform: uppercase;
 }
 
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;     
+.menu__item {
+    padding-right: 8px;
+    padding-left: 8px;
+    list-style-type: none;
+    cursor: pointer;
 }
-.container {
-    display: flex;
-    @include portrait {
-        flex-direction: column;         
-    }
-    @include landscape {
-        flex-direction: row;
-    }
+.menu__item:hover {
+    background-color: #9acd32;
 }
-.square {
-    width: 100px;
-    height: 100px;
-    margin: 8px;
+.menu__item_active {
+   position: relative; 
+    display: inline-block;
+    color: yellow;
+}
+.submenu {
+    position: absolute;
+   display: block;
+    margin: 0;
+    padding: 0;
     background-color: #ff7f50;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    color: #fff;
     
-    @include for-small-up {
-         background-color: #8a2be2;
-    }
-    @include for-medium-up {
-        background-color: #a61;
-   }
-    @include for-large-up {
-    background-color: #c47;
-   }
+    z-index: 1;
+}
+
+.submenu__item {
+    
+    display: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    min-width: 120px;
+    list-style-type: none;
+    cursor: pointer;
+}
+.submenu__item:hover {
+    color: #000;
+}
+.menu__item_active:hover .submenu__item {
+    display: block;
 }
