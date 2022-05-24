@@ -1,15 +1,15 @@
 
-$md: 900px;
-$lg: 1200px;
+$md: 600px;
+$lg: 900px;
 
 
 @mixin laptop {
-    @media screen and (min-width: $md){       
+    @media screen and (min-width: $lg){       
         @content; 
      }
 }
-@mixin display {
-    @media screen and (min-width: $lg){       
+@mixin telefon {
+    @media screen and (min-width: $md){       
         @content; 
      }
 }
