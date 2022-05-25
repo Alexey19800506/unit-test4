@@ -1,59 +1,10 @@
-
-@import 'layout.scss';
+@import 'header.scss';
 
 * {
-   box-sizing: border-box;
+    box-sizing: border-box;
  }
- span {
-   padding: 8px;
-   text-transform: lowercase;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   background-color: #faebd7;
-   border-radius: 4px;
-   margin: auto;
-}
-.navigation {
-   background-color: #ff7f50;
-   min-height: 200px;
-   display: flex;
-   flex-grow: 1;
-}
-.products_list {
-   background-color: #006400;
-   min-height: 200px;
-   display: flex;
-   flex-grow: 1;
-}  
-.news {
-   background-color: #0ff;
-   min-height: 200px;
-   display: flex;
-   flex-grow: 1;
-}
-
-@include telefon {
-   .products {
-     display: flex;  
-   }
-   .navigation {
-      width: 50vw;
-   }
-   .products_list {
-      width: 50vw;
-   }
-
-}
-@include laptop {
-   .content {
-      display: flex;   
-   }
-   .navigation {
-      width: 33.333333vw;
-   }
-   .products_list {
-      width: 33.333333vw;
-   }
-   .news {
-      width: 33.333333vw;
-   }
-}
+ html {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 16px;
+     
+ }
