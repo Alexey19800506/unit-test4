@@ -15,11 +15,11 @@
         color: #fff;
         text-transform: uppercase;
         list-style-type: none;
+        padding-left: 8px;
         &:hover {
             background-color: #9acd32;
         }
         &-text {
-            padding: 0 8px;
             line-height: 3em;
             text-transform: uppercase;
         }

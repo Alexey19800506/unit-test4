@@ -16,12 +16,12 @@
   color: #fff;
   text-transform: uppercase;
   list-style-type: none;
+  padding-left: 8px;
 }
 .menu__item:hover {
   background-color: #9acd32;
 }
 .menu__item-text {
-  padding: 0 8px;
   line-height: 3em;
   text-transform: uppercase;
 }
