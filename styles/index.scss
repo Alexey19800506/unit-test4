@@ -11,12 +11,11 @@ html {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     color: $color-white;
+    background-color: $color-dark;
 }
 
 .price-cards {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $color-dark;
 }

@@ -124,14 +124,13 @@ html {
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   color: #fff;
+  background-color: #141b1c;
 }
 
 .price-cards {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #141b1c;
 }
 
 /*# sourceMappingURL=styles.css.map */
