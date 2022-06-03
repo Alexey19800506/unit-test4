@@ -1,0 +1,22 @@
+.price-card__business {
+    position: relative;
+    &_button,
+    &_price {
+        background-color: $color-blue;
+    }
+    &_popdivar {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25px;
+        width: 147px;
+        background-color: $color-red;
+        left: 264px;
+        top: 30px;
+        transform: rotate(45deg);
+    }
+}
