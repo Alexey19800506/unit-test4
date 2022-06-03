@@ -8,17 +8,17 @@
 .price-card:last-child {
   margin-right: 0;
 }
-.price-card__name {
+.price-card__title {
   height: 64px;
   text-align: center;
 }
-.price-card__name_title {
+.price-card__title_main {
   font-weight: 700;
   font-size: 35px;
   line-height: 43px;
   margin: 0;
 }
-.price-card__name_show {
+.price-card__title_show {
   margin-top: 0;
   font-weight: 300px;
   font-size: 20px;
@@ -43,26 +43,30 @@
   text-align: center;
   margin: 40px 26px;
 }
-.price-card__list {
+.price-card__options-list {
+  width: 380px;
+  height: 300px;
+}
+.price-card__options-list__list {
   padding-top: 16px;
   padding-bottom: 16px;
   width: 380px;
   height: 50px;
 }
-.price-card__list:nth-of-type(odd) {
+.price-card__options-list__list:nth-of-type(odd) {
   background-color: #2A3438;
 }
-.price-card__list_image {
+.price-card__options-list__list_image {
   margin: 0 22px;
   height: 13px;
   width: 15px;
 }
-.price-card__list_item {
+.price-card__options-list__list_item {
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
 }
-.price-card__button {
+.price-card__order-bth {
   width: 154px;
   height: 40px;
   border-radius: 20px;
