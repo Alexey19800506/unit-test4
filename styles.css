@@ -9,8 +9,11 @@
   margin-right: 0;
 }
 .price-card__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 64px;
-  text-align: center;
 }
 .price-card__title_main {
   font-weight: 700;
@@ -20,7 +23,7 @@
 }
 .price-card__title_show {
   margin-top: 0;
-  font-weight: 300px;
+  font-weight: 700px;
   font-size: 20px;
   line-height: 24px;
 }
@@ -48,6 +51,7 @@
   height: 300px;
 }
 .price-card__options-list__list {
+  display: flex;
   padding-top: 16px;
   padding-bottom: 16px;
   width: 380px;
@@ -62,6 +66,7 @@
   width: 15px;
 }
 .price-card__options-list__list_item {
+  padding-left: 0;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
