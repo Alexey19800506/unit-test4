@@ -143,7 +143,6 @@ html {
 }
 
 .price-cards {
-  margin: 115px 0;
   display: flex;
   justify-content: center;
   align-items: center;
