@@ -1,9 +1,12 @@
-.price-card__basic {
-    &_button,
-    &_price {
+.basic {
+    &__button {
+        background-color: $color-green;
+        margin: 39px 113px 40px 112px;
+    }
+    &__price {
         background-color: $color-green;
     }
-    &_name {
+    &__title {
         width: 100px;
         margin: 33px 140px;
     }

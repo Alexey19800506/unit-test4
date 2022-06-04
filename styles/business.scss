@@ -1,14 +1,17 @@
-.price-card__business {
+.business {
     position: relative;
-    &_button,
-    &_price {
+    &__button {
+        background-color: $color-blue;
+        margin: 39px 113px 40px 112px;
+    }
+    &__price {
         background-color: $color-blue;
     }
-    &_name {
+    &__title {
         width: 164px;
         margin: 33px 108px;
     }
-    &_popdivar {
+    &__popular {
         font-weight: 700;
         font-size: 14px;
         line-height: 17px;
@@ -19,8 +22,8 @@
         height: 25px;
         width: 147px;
         background-color: $color-red;
-        left: 264px;
-        top: 30px;
+        left: 263px;
+        top: 27px;
         transform: rotate(45deg);
     }
 }

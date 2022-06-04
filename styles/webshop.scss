@@ -1,9 +1,12 @@
-.price-card__webshop {
-    &_button,
-    &_price {
+.webshop {
+    &__button {
+        margin: 39px 113px 37px 112px;
         background-color: $color-orange;
     }
-    &_name {
+    &__price {
+        background-color: $color-orange;
+    }
+    &__title {
         width: 176px;
         margin: 36px 102px 33px 102px;
     }

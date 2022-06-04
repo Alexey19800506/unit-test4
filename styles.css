@@ -75,28 +75,35 @@
   line-height: 17px;
   border: none;
   color: #fff;
-  margin: 39px 113px 40px 112px;
 }
 
-.price-card__basic_button, .price-card__basic_price {
+.basic__button {
+  background-color: #5BB189;
+  margin: 39px 113px 40px 112px;
+}
+.basic__price {
   background-color: #5BB189;
 }
-.price-card__basic_name {
+.basic__title {
   width: 100px;
   margin: 33px 140px;
 }
 
-.price-card__business {
+.business {
   position: relative;
 }
-.price-card__business_button, .price-card__business_price {
+.business__button {
+  background-color: #3A6BA5;
+  margin: 39px 113px 40px 112px;
+}
+.business__price {
   background-color: #3A6BA5;
 }
-.price-card__business_name {
+.business__title {
   width: 164px;
   margin: 33px 108px;
 }
-.price-card__business_popdivar {
+.business__popular {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -107,15 +114,19 @@
   height: 25px;
   width: 147px;
   background-color: #DC3F45;
-  left: 264px;
-  top: 30px;
+  left: 263px;
+  top: 27px;
   transform: rotate(45deg);
 }
 
-.price-card__webshop_button, .price-card__webshop_price {
+.webshop__button {
+  margin: 39px 113px 37px 112px;
   background-color: #EC632A;
 }
-.price-card__webshop_name {
+.webshop__price {
+  background-color: #EC632A;
+}
+.webshop__title {
   width: 176px;
   margin: 36px 102px 33px 102px;
 }
