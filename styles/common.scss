@@ -1,6 +1,8 @@
 .price-card {
     width: 380px;
     height: 770px;
+    display: flex;
+    flex-direction: column;
     background-color: $color-light-black;
     margin-right: 18px;
     overflow: hidden;

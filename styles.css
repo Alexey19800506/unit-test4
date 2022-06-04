@@ -1,6 +1,8 @@
 .price-card {
   width: 380px;
   height: 770px;
+  display: flex;
+  flex-direction: column;
   background-color: #334247;
   margin-right: 18px;
   overflow: hidden;
@@ -90,8 +92,8 @@
   background-color: #5BB189;
 }
 .basic__title {
-  width: 100px;
   margin: 33px 140px;
+  width: 100px;
 }
 
 .business {
@@ -105,8 +107,8 @@
   background-color: #3A6BA5;
 }
 .business__title {
-  width: 164px;
   margin: 33px 108px;
+  width: 163px;
 }
 .business__popular {
   font-weight: 700;
@@ -132,8 +134,8 @@
   background-color: #EC632A;
 }
 .webshop__title {
-  width: 176px;
   margin: 36px 102px 33px 102px;
+  width: 176px;
 }
 
 * {
@@ -151,6 +153,8 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
+  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
