@@ -48,27 +48,22 @@
         margin: 40px 26px;
     }
     &__options-list {
+        margin-top: 0;
         width: 380px;
         height: 300px;
-        &__list {
-            display: flex;
+        padding-left: 0;
+        &_item {
+            list-style-type: none;
+            list-style-position: inside;
             padding-top: 16px;
             padding-bottom: 16px;
             width: 380px;
             height: 50px;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 18px;
             &:nth-of-type(odd) {
                 background-color: $color-dark-grey;
-            }
-            &_image {
-                margin: 0 22px;
-                height: 13px;
-                width: 15px;
-            }
-            &_item {
-                padding-left: 0;
-                font-weight: 300;
-                font-size: 15px;
-                line-height: 18px;
             }
         }
     }
