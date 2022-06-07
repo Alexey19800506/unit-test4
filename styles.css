@@ -136,9 +136,6 @@
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
 
-.webshop {
-  margin-bottom: 3px;
-}
 .webshop__button {
   margin: 39px 113px 37px 112px;
   background-color: #EC632A;
