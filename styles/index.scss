@@ -17,6 +17,7 @@ html {
 .price-cards {
     display: flex;
     justify-content: center;
-    margin: auto;
+    align-items: center;
     min-height: 100vh;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 }
