@@ -63,7 +63,6 @@
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
-  background-color: #1F3D63;
 }
 .price-card__options-list_item:nth-of-type(odd) {
   background-color: #2A3438;
