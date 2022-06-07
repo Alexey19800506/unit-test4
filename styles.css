@@ -156,6 +156,10 @@
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
@@ -166,13 +170,13 @@ body {
   display: flex;
   min-height: 100vh;
   background-color: #141b1c;
-  justify-content: center;
-  align-items: center;
 }
 
 .price-table {
   margin: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

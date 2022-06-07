@@ -3,6 +3,10 @@
 @import 'basic.scss';
 @import 'business.scss';
 @import 'webshop.scss';
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -13,11 +17,11 @@ body {
     display: flex;
     min-height: 100vh;
     background-color: $color-dark;
-    justify-content: center;
-    align-items: center;
 }
 
 .price-table {
     margin: auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
