@@ -23,7 +23,7 @@
         }
         &_show {
             margin-top: 0;
-            font-weight: 700px;
+            font-weight: 300px;
             font-size: 20px;
             line-height: 24px;
         }
@@ -61,7 +61,6 @@
             font-weight: 300;
             font-size: 15px;
             line-height: 18px;
-            z-index: 1;
             &:nth-of-type(odd) {
                 background-color: $color-dark-grey;
             }

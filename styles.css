@@ -25,7 +25,7 @@
 }
 .price-card__title_show {
   margin-top: 0;
-  font-weight: 700px;
+  font-weight: 300px;
   font-size: 20px;
   line-height: 24px;
 }
@@ -63,7 +63,6 @@
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
-  z-index: 1;
 }
 .price-card__options-list_item:nth-of-type(odd) {
   background-color: #2A3438;
@@ -111,7 +110,7 @@
 }
 .business__title {
   margin: 33px 108px;
-  width: 163px;
+  width: 164px;
 }
 .business__popular {
   font-weight: 700;
@@ -173,7 +172,6 @@ html {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
