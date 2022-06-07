@@ -27,7 +27,11 @@
         transform: rotate(45deg);
     }
     &__icon {
-        list-style-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
-        padding-left: 22px;
+        display: inline-block;
+        margin-left: 22px;
+        margin-right: 22px;
+        height: 13px;
+        width: 15px;
+        background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
     }
 }

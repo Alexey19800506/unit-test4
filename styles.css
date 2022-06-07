@@ -56,7 +56,6 @@
 }
 .price-card__options-list_item {
   list-style-type: none;
-  list-style-position: inside;
   padding-top: 16px;
   padding-bottom: 16px;
   width: 380px;
@@ -64,6 +63,7 @@
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
+  z-index: 1;
 }
 .price-card__options-list_item:nth-of-type(odd) {
   background-color: #2A3438;
@@ -91,8 +91,12 @@
   width: 100px;
 }
 .basic__icon {
-  list-style-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
-  padding-left: 22px;
+  display: inline-block;
+  margin-left: 22px;
+  margin-right: 22px;
+  height: 13px;
+  width: 15px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
 
 .business {
@@ -125,8 +129,12 @@
   transform: rotate(45deg);
 }
 .business__icon {
-  list-style-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
-  padding-left: 22px;
+  display: inline-block;
+  margin-left: 22px;
+  margin-right: 22px;
+  height: 13px;
+  width: 15px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
 
 .webshop__button {
@@ -141,8 +149,12 @@
   width: 176px;
 }
 .webshop__icon {
-  list-style-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
-  padding-left: 22px;
+  display: inline-block;
+  margin-left: 22px;
+  margin-right: 22px;
+  height: 13px;
+  width: 15px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
 
 * {
