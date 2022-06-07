@@ -110,7 +110,7 @@
 }
 .business__title {
   margin: 33px 108px;
-  width: 164px;
+  width: 163px;
 }
 .business__popular {
   font-weight: 700;
@@ -136,6 +136,9 @@
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
 
+.webshop {
+  margin-bottom: 3px;
+}
 .webshop__button {
   margin: 39px 113px 37px 112px;
   background-color: #EC632A;
@@ -173,8 +176,8 @@ body {
 }
 
 .price-table {
-  margin: auto;
   display: flex;
+  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
