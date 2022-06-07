@@ -15,8 +15,6 @@ html {
 
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     background-color: $color-dark;
 }
@@ -24,4 +22,6 @@ body {
 .price-table {
     margin: auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }

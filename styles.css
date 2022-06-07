@@ -168,8 +168,6 @@ html {
 
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
   background-color: #141b1c;
 }
@@ -177,6 +175,8 @@ body {
 .price-table {
   margin: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
