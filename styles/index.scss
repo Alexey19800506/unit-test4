@@ -14,13 +14,12 @@ html {
 }
 
 body {
-    display: flex;
+    margin: auto;
     min-height: 100vh;
     background-color: $color-dark;
 }
 
 .price-table {
-    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
