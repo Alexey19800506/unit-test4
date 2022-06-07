@@ -15,7 +15,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 64px;
 }
 .price-card__title_main {
   font-weight: 700;
