@@ -174,4 +174,9 @@ body {
   align-items: center;
 }
 
+.price-table {
+  margin: auto;
+  display: flex;
+}
+
 /*# sourceMappingURL=styles.css.map */
